@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Django
+db.sqlite3
+*.log
+local_settings.py
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# ML / model files (IMPORTANT for your project)
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Large outputs / images
+*.jpg
+*.png
+*.jpeg
+*.mp4
+outputs/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+# Ignore Django's internal files and folders
+
+8. pyc
+_pycache/
+*.egg-info/
+# Ignore virtual environment files (if you're using one)
+venv/
+# Ignore Django's project tmp directory
+tmp/
+# Ignore Django's cache directory
+*cache*
+#
+Ignore Python's build-in temp
+directory
+*. pyd
+# Ignore Django's logs
+Logs/
+# Ignore Pycache
+• cache/
