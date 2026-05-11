@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Django
+db.sqlite3
+
+# Environment
+.env
+
+# ML models (IMPORTANT)
+*.pt
+*.pth
+
+# Media / outputs
+media/
+staticfiles/
+runs/
+outputs/
+*.jpg
+*.png
+*.jpeg
+
+# OS
+.DS_Store
